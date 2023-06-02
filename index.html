@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify | Your favourite music is here</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body">
+    <!-- Navigation area -->
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <!-- Main content where songs are shown -->
+    <div class="container">
+        <!-- Div to display list of songs -->
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">05:05 <i id="0" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">06:11 <i id="1" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">05:12 <i id="2" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">05:48 <i id="3" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">05:33 <i id="4" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">04:53 <i id="5" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">04:27 <i id="6" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">04:47 <i id="7" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">03:26 <i id="8" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">04:28 <i id="9" class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <!-- Background image -->
+        <div class="songBanner">
+
+        </div>
+    </div>
+
+    <!-- Here, songname, play-pause button will be shown -->
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+            <i class="fa-solid fa-3x fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="./playing.gif" alt="" width="40px" id="gif"> <span id="masterSongName">Te Amo</span> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ee5d7b2f58.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
